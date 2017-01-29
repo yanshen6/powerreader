@@ -1,0 +1,94 @@
+<resources>
+
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="padding_search_bar">5dp</dimen>
+    <dimen name="height_row_weixin">59dp</dimen>
+    <dimen name="field_textsize">14sp</dimen>
+    <dimen name="field_margin_right">5dp</dimen>
+    <dimen name="call_button_padding_vertical">10dp</dimen>
+    <dimen name="call_button_padding_left">25dp</dimen>
+    <dimen name="call_button_padding_right">25dp</dimen>
+    <dimen name="sidebar_text_size">10dp</dimen>
+    <dimen name="image_thumbnail_size">100dp</dimen>
+    <dimen name="image_thumbnail_spacing">1dp</dimen>
+
+    <!-- 最新的尺寸 -->
+    <dimen name="app_top_left_margin">12dp</dimen>
+    <dimen name="app_top_right_margin">12dp</dimen>
+    <dimen name="height_top_bar">53dp</dimen>
+    <dimen name="title_textsize">18sp</dimen>
+    <dimen name="app_content_normal_textsize">14sp</dimen>
+    <dimen name="app_content_large_textsize">16sp</dimen>
+    <dimen name="app_inputbox_height">46dp</dimen>
+    <dimen name="app_inputbox_midheight">32dp</dimen>
+    
+    <!-- T记 -->
+    <dimen name="calendar_thumbnail_size">17dp</dimen>
+    <dimen name="calendar_date_size">16sp</dimen>
+    <dimen name="tjournal_train_number_textsize">28sp</dimen>
+    <dimen name="tjournal_train_announce_textsize">14sp</dimen>
+    <dimen name="tjournal_cell_left_mg">10dp</dimen>
+    <dimen name="tjournal_cell_right_mg">10dp</dimen>
+    <dimen name="tjournal_cell_top_mg">10dp</dimen>
+    <dimen name="tjournal_avatar_size">43dp</dimen>
+    <dimen name="tjournal_feedback_avatar_size">38dp</dimen>
+    <dimen name="tjournal_cell_top_left_mg">11dp</dimen>
+    <dimen name="tjournal_cell_top_right_mg">11dp</dimen>
+    <dimen name="tjournal_cell_top_top_mg">11dp</dimen>
+    <dimen name="tjournal_cell_nick_top_mg">5dp</dimen>
+    <dimen name="tjournal_cell_nick_bottom_mg">10dp</dimen>
+    <dimen name="tjournal_cell_nick_left_mg">7dp</dimen>
+    <dimen name="tjournal_cell_content_left_mg">12dp</dimen>
+    <dimen name="tjournal_cell_content_right_mg">15dp</dimen>
+    <dimen name="tjournal_cell_content_top_mg">14dp</dimen>
+    <dimen name="tjournal_cell_content_bottom_mg">11dp</dimen>
+    <dimen name="tjournal_cell_attach_pic_width">220dp</dimen>
+    <dimen name="tjournal_cell_attach_pic_height">141dp</dimen>
+    <dimen name="tjournal_nick_textsize">14sp</dimen>
+    <dimen name="tjournal_station_textsize">12sp</dimen>
+    <dimen name="tjournal_datetime_textsize">11sp</dimen>
+    <dimen name="tjournal_content_textsize">15sp</dimen>
+    <dimen name="tjournal_detail_content_textsize">16sp</dimen>
+    <dimen name="tjournal_header_height">160dp</dimen>
+    <dimen name="room_avatar_size">57dp</dimen>
+    <dimen name="room_cell_left_mg">12dp</dimen>
+    <dimen name="room_cell_bottom_mg">10dp</dimen>
+    <dimen name="room_cell_top_mg">10dp</dimen>
+    <dimen name="room_cell_content_left_mg">14dp</dimen>
+    <dimen name="room_cell_userstation_textsize">14sp</dimen>
+    <dimen name="room_roomnum_space_height">25dp</dimen>
+    <dimen name="room_roomnum_textsize">12dp</dimen>
+    <dimen name="room_passenger_filter_margin">20dp</dimen>
+    <dimen name="room_user_normal_title_size">12sp</dimen>
+    <dimen name="chartroom_layout_margin_size">15dp</dimen>
+    <dimen name="chartroom_setingbox_height">46dp</dimen>
+    <dimen name="chartroom_cell_height">110dp</dimen>
+    <dimen name="chartroom_cell_width">105dp</dimen>
+    <dimen name="chartroom_cell_icon_size">63dp</dimen>
+    <dimen name="chartroom_cell_icon_mg_top">14dp</dimen>
+    <dimen name="chartroom_cell_icon_mg_bottom">10dp</dimen>
+
+    <!-- chatting process page -->
+    <dimen name="size_avatar">45dp</dimen>
+    <dimen name="margin_chat_activity">11dp</dimen>
+    <dimen name="margin_chat_text">5dp</dimen>
+    <dimen name="historyscore_tb">10dp</dimen>
+
+    <!-- conversation item -->
+    <dimen name="conver_item_avatar_size">53dp</dimen>
+    <dimen name="conver_item_mg_top">10dp</dimen>
+    <dimen name="conver_item_mg_left">12dp</dimen>
+    <dimen name="conver_item_mg_bottom">10dp</dimen>
+
+    <!-- user detail info -->
+    <dimen name="user_dt_avatar_bkg_height">230dp</dimen>
+    <dimen name="user_dt_avatar_size">101dp</dimen>
+    <dimen name="user_dt_avatar_mg_top">38dp</dimen>
+    <dimen name="user_nick_mg_top">20dp</dimen>
+    <dimen name="user_room_mg_top">13dp</dimen>
+	<!-- trace detail info -->
+	<dimen name="item_cell_height">90dp</dimen>
+	<dimen name="item_cell_padingtop">28dp</dimen>
+</resources>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">JJLCapture</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="str_devecehasblue">有蓝牙设备!</string>
+    <string name="str_nomatched">没有匹配设备!</string>
+    <string name="str_connected">已连接</string>
+    <string name="str_disconnected">没有连接</string>
+    <string name="str_connecting">正在连接蓝牙</string>
+    <string name="str_hasnodevice">没有蓝牙设备!</string>
+    <string name="str_scanover">扫描完毕</string>
+    <string name="str_rescan">重新扫描</string>
+    <string name="str_disconnect">断开连接</string>
+    <string name="str_device">设备</string>
+    <string name="str_scaning">正在扫描</string>
+    <string name="str_unconnected">未连接!</string>
+    <string name="str_succonnect">连接成功!</string>
+    <string name="str_faileconnect">连接失败!</string>
+    <string name="str_lose">丢失连接!</string>
+    <string name="str_start_pub_info">正在提交信息...</string>
+    <string name="str_start_query_info">正在查询...</string>
+    <string name="str_start_synic_info">开始同步数据...</string>
+     <string name="str_start_synic_file">正在下载文件...</string>
+    <string name="title_activity_tongji">TongjiActivity</string>
+    <string name="title_activity_chaxun">ChaxunActivity</string>
+    <string name="title_activity_daohang">DaohangActivity</string>
+    <string name="title_activity_help">HelpActivity</string>
+
+</resources>

@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:su="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/ll_popup_seat_id"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/btn_list_item_bg"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:id="@+id/rl_data_type"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+        <TextView
+            android:id="@+id/tv_datetime_id"
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:gravity="center"
+            android:padding="5dp"
+            android:text="2016-01-01 10:10:12"
+            android:textColor="@color/common_content_blue"
+            android:background="@color/common_content_dark_gray"
+            android:textSize="12sp" />
+        <LinearLayout 
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/ll_content_id"
+            android:layout_toRightOf="@+id/tv_datetime_id"
+            android:orientation="vertical">
+             <RelativeLayout
+		         android:layout_width="match_parent"
+	             android:layout_height="wrap_content"
+	             android:paddingLeft="10dp"
+	             android:paddingTop="5dp"
+	             android:paddingBottom="5dp"
+	             android:gravity="center">
+	 			<TextView
+		            android:id="@+id/tv_device_type"
+		            android:layout_width="wrap_content"
+		            android:layout_height="wrap_content"
+		            android:layout_alignParentTop="true"
+		            android:gravity="center"
+		            android:text="电表:"
+		            android:textColor="@color/common_content_gray"
+		            android:textSize="12sp" />
+	 		  	<TextView
+		            android:id="@+id/tv_device_id"
+		            android:layout_width="match_parent"
+		            android:layout_height="wrap_content"
+		            android:layout_toRightOf="@+id/tv_device_type"
+		            android:layout_marginLeft="5dp"
+		            android:text="1234455566"
+		            android:textColor="@color/common_content_gray"
+		            android:textSize="12sp" />
+	    	</RelativeLayout>
+	    	<TextView           
+		       android:layout_width="match_parent"
+		       android:layout_height="0.05dp"
+		       android:layout_marginLeft="5dp"	       
+		       android:layout_marginRight="5dp"
+		       android:background="@color/common_content_light_gray" />
+	    	
+	    	  <RelativeLayout
+		        android:id="@+id/rl_data_value"
+		        android:layout_width="match_parent"
+		        android:layout_marginLeft="5dp"
+		        android:layout_height="wrap_content" >
+		 		  <TextView
+		            android:id="@+id/tv_data_type"
+		            android:layout_width="wrap_content"
+		            android:layout_height="wrap_content"
+		            android:layout_alignParentLeft="true"
+		             android:padding="5dp"
+		            android:gravity="center"
+		            android:text="数据类型"
+		            android:textColor="@color/common_content_gray"
+		            android:textSize="10sp" />
+		 		    <TextView
+		            android:id="@+id/tv_data_value"
+		            android:layout_width="match_parent"
+		            android:layout_height="wrap_content"
+		            android:layout_toRightOf="@+id/tv_data_type"
+		            android:gravity="center_vertical"
+		            android:padding="5dp"
+		            android:text="数据内容"
+		            android:textColor="@color/common_content_gray"
+		            android:textSize="12sp" />
+		    </RelativeLayout>
+		    
+	    	  <RelativeLayout
+		        android:id="@+id/rl_data_comment"
+		        android:layout_width="match_parent"
+		        android:layout_height="wrap_content"
+		        android:visibility="gone" >
+		
+		        <TextView
+		            android:id="@+id/tv_item_text_comment"
+		            android:layout_width="wrap_content"
+		            android:layout_height="wrap_content"
+		            android:gravity="center"
+		            android:padding="5dp"
+		            android:text="详细的备注信息"
+		            android:textColor="@color/common_content_gray"
+		            android:textSize="12sp" />
+		
+		        <com.topone.util.ExpandGridView
+		            android:id="@+id/gridview"
+		            android:layout_width="match_parent"
+		            android:layout_height="wrap_content"
+		            android:background="@color/common_pure_white"
+		            android:layout_below="@+id/tv_item_text_comment"
+		            android:columnWidth="85dp"
+		            android:horizontalSpacing="2dp"
+		            android:listSelector="@android:color/transparent"
+		            android:numColumns="auto_fit" />
+		    </RelativeLayout>
+        </LinearLayout>
+       
+       
+    </RelativeLayout>
+ 	
+  
+	
+    
+
+</LinearLayout>

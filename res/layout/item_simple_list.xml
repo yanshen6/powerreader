@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:su="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/ll_popup_seat_id"
+    android:layout_width="match_parent"
+    android:layout_height="160dp"
+    android:orientation="horizontal" >
+    <CheckBox 
+    android:id="@+id/cb_item_text_name"
+    android:layout_width="wrap_content"
+    android:layout_height="46dp" 
+    android:visibility="gone"/>
+	<TextView 
+    android:id="@+id/tv_item_text_name"
+    android:layout_width="wrap_content"
+    android:layout_height="46dp"
+    android:gravity="center"
+    android:textColor="@color/common_content_blue"
+   android:background="@drawable/btn_list_item_bg_trans"  
+    android:textSize="16sp" />	 
+ </LinearLayout>

@@ -1,0 +1,410 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:su="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/ll_popup_seat_id"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/btn_list_item_bg"
+    android:orientation="vertical"
+    android:padding="10dp" >
+
+    <RelativeLayout
+         android:id="@+id/rl_item_homeno"
+        android:layout_width="match_parent"
+        android:layout_height="32dp"
+        android:paddingLeft="5dp" >
+
+        <TextView
+            android:id="@+id/lable_item_homeno"
+            android:layout_width="80dp"
+            android:layout_height="match_parent"
+            android:layout_alignParentLeft="true"
+            android:layout_marginRight="5dp"
+            android:gravity="center_vertical"
+            android:text="户  号"
+            android:textColor="@color/common_content_gray"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/tv_item_homeno"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_toRightOf="@+id/lable_item_homeno"
+            android:gravity="center_vertical"
+            android:paddingLeft="10dp"
+            android:textColor="@color/common_content_light_blue"
+            android:textSize="14sp" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/rl_item_homename"
+        android:layout_width="match_parent"
+        android:layout_height="32dp"
+        android:paddingLeft="5dp" >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0.1dp"
+            android:layout_alignParentTop="true"
+            android:background="@color/common_content_gray" />
+
+        <TextView
+            android:id="@+id/lable_item_homename"
+            android:layout_width="80dp"
+            android:layout_height="match_parent"
+            android:layout_alignParentLeft="true"
+            android:layout_marginRight="5dp"
+            android:gravity="center_vertical"
+            android:text="户  名"
+            android:textColor="@color/common_content_gray"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/tv_item_homename"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_toRightOf="@+id/lable_item_homename"
+            android:gravity="center_vertical"
+            android:paddingLeft="10dp"
+            android:textColor="@color/common_content_light_blue"
+            android:textSize="14sp" />
+    </RelativeLayout>
+    
+ <RelativeLayout
+        android:id="@+id/rl_item_pdno"
+        android:layout_width="match_parent"
+        android:layout_height="32dp"
+        android:paddingLeft="5dp" >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0.1dp"
+            android:layout_alignParentTop="true"
+            android:background="@color/common_content_gray" />
+
+        <TextView
+            android:id="@+id/lable_item_pdno"
+            android:layout_width="80dp"
+            android:layout_height="match_parent"
+            android:layout_alignParentLeft="true"
+            android:layout_marginRight="5dp"
+            android:gravity="center_vertical"
+            android:text="表   号"
+            android:textColor="@color/common_content_gray"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/tv_item_pdno"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_toRightOf="@+id/lable_item_pdno"
+            android:gravity="center_vertical"
+            android:paddingLeft="10dp"
+            android:textColor="@color/common_content_light_blue"
+            android:textSize="14sp" />
+    </RelativeLayout>
+    
+    <RelativeLayout
+        android:id="@+id/rl_item_meterno"
+        android:layout_width="match_parent"
+        android:layout_height="32dp"
+        android:paddingLeft="5dp" >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0.1dp"
+            android:layout_alignParentTop="true"
+            android:background="@color/common_content_gray" />
+
+        <TextView
+            android:id="@+id/lable_item_meterno"
+            android:layout_width="80dp"
+            android:layout_height="match_parent"
+            android:layout_alignParentLeft="true"
+            android:layout_marginRight="5dp"
+            android:gravity="center_vertical"
+            android:text="终端号"
+            android:textColor="@color/common_content_gray"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/tv_item_meterno"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_toRightOf="@+id/lable_item_meterno"
+            android:gravity="center_vertical"
+            android:paddingLeft="10dp"
+            android:textColor="@color/common_content_light_blue"
+            android:textSize="14sp" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/rl_item_meterpoint"
+        android:layout_width="match_parent"
+        android:layout_height="32dp"
+        android:paddingLeft="5dp" >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0.1dp"
+            android:layout_alignParentTop="true"
+            android:background="@color/common_content_gray" />
+
+        <TextView
+            android:id="@+id/lable_item_meterpoint"
+            android:layout_width="80dp"
+            android:layout_height="match_parent"
+            android:layout_alignParentLeft="true"
+            android:layout_marginRight="5dp"
+            android:gravity="center_vertical"
+            android:text="测量点"
+            android:textColor="@color/common_content_gray"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/tv_item_meterpoint"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_toRightOf="@+id/lable_item_meterpoint"
+            android:gravity="center_vertical"
+            android:paddingLeft="10dp"
+            android:textColor="@color/common_content_light_blue"
+            android:textSize="14sp" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/rl_item_meteraddress"
+        android:layout_width="match_parent"
+        android:layout_height="32dp"
+        android:paddingLeft="5dp" >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0.1dp"
+            android:layout_alignParentTop="true"
+            android:background="@color/common_content_gray" />
+
+        <TextView
+            android:id="@+id/lable_item_meteraddress"
+            android:layout_width="80dp"
+            android:layout_height="match_parent"
+            android:layout_alignParentLeft="true"
+            android:layout_marginRight="5dp"
+            android:gravity="center_vertical"
+            android:text="终端地址"
+            android:textColor="@color/common_content_gray"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/tv_item_meteraddress"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_toRightOf="@+id/lable_item_meteraddress"
+            android:gravity="center_vertical"
+            android:paddingLeft="10dp"
+            android:textColor="@color/common_content_light_blue"
+            android:textSize="14sp" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/rl_item_fixaddress"
+        android:layout_width="match_parent"
+        android:layout_height="32dp"
+        android:paddingLeft="5dp" >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0.1dp"
+            android:layout_alignParentTop="true"
+            android:background="@color/common_content_gray" />
+
+        <TextView
+            android:id="@+id/lable_item_fixaddress"
+            android:layout_width="80dp"
+            android:layout_height="match_parent"
+            android:layout_alignParentLeft="true"
+            android:layout_marginRight="5dp"
+            android:gravity="center_vertical"
+            android:text="安装地址"
+            android:textColor="@color/common_content_gray"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/tv_item_fixaddress"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_toRightOf="@+id/lable_item_fixaddress"
+            android:gravity="center_vertical"
+            android:paddingLeft="10dp"
+            android:textColor="@color/common_content_light_blue"
+            android:textSize="14sp" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/rl_item_poweraddress"
+        android:layout_width="match_parent"
+        android:layout_height="32dp"
+        android:paddingLeft="5dp" >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0.1dp"
+            android:layout_alignParentTop="true"
+            android:background="@color/common_content_gray" />
+
+        <TextView
+            android:id="@+id/lable_item_poweraddress"
+            android:layout_width="80dp"
+            android:layout_height="match_parent"
+            android:layout_alignParentLeft="true"
+            android:layout_marginRight="5dp"
+            android:gravity="center_vertical"
+            android:text="用电地址"
+            android:textColor="@color/common_content_gray"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/tv_item_poweraddress"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_toRightOf="@+id/lable_item_poweraddress"
+            android:gravity="center_vertical"
+            android:paddingLeft="10dp"
+            android:textColor="@color/common_content_light_blue"
+            android:textSize="14sp" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/rl_item_fault_reason"
+        android:layout_width="match_parent"
+        android:layout_height="32dp"
+        android:paddingLeft="5dp" >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0.1dp"
+            android:layout_alignParentTop="true"
+            android:background="@color/common_content_gray" />
+
+        <TextView
+            android:id="@+id/lable_item_fault_reason"
+            android:layout_width="80dp"
+            android:layout_height="match_parent"
+            android:layout_alignParentLeft="true"
+            android:layout_marginRight="5dp"
+            android:gravity="center_vertical"
+            android:text="故障原因"
+            android:textColor="@color/common_content_gray"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/tv_item_fault_reason"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_toRightOf="@+id/lable_item_fault_reason"
+            android:gravity="center_vertical"
+            android:paddingLeft="10dp"
+            android:textColor="@color/common_content_light_blue"
+            android:textSize="14sp" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/rl_item_fault_type"
+        android:layout_width="match_parent"
+        android:layout_height="32dp"
+        android:paddingLeft="5dp" >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0.1dp"
+            android:layout_alignParentTop="true"
+            android:background="@color/common_content_gray" />
+
+        <TextView
+            android:id="@+id/lable_item_fault_type"
+            android:layout_width="80dp"
+            android:layout_height="match_parent"
+            android:layout_alignParentLeft="true"
+            android:layout_marginRight="5dp"
+            android:gravity="center_vertical"
+            android:text="故障类型"
+            android:textColor="@color/common_content_gray"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/tv_item_fault_type"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_toRightOf="@+id/lable_item_fault_type"
+            android:gravity="center_vertical"
+            android:paddingLeft="10dp"
+            android:textColor="@color/common_content_light_blue"
+            android:textSize="14sp" />
+    </RelativeLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0.1dp"
+        android:background="@color/common_content_gray" />
+
+    <RelativeLayout
+        android:id="@+id/rl_item_check_user"
+        android:layout_width="match_parent"
+        android:layout_height="32dp"
+        android:paddingLeft="5dp" >
+
+        <TextView
+            android:id="@+id/lable_item_check_user"
+            android:layout_width="80dp"
+            android:layout_height="match_parent"
+            android:layout_alignParentLeft="true"
+            android:layout_marginRight="5dp"
+            android:gravity="center_vertical"
+            android:text="排查人"
+            android:textColor="@color/common_content_gray"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/tv_item_check_user"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_toRightOf="@+id/lable_item_check_user"
+            android:gravity="center_vertical"
+            android:paddingLeft="10dp"
+            android:textColor="@color/common_content_light_blue"
+            android:textSize="14sp" />
+    </RelativeLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0.1dp"
+        android:background="@color/common_content_gray" />
+
+    <RelativeLayout
+        android:id="@+id/rl_item_check_time"
+        android:layout_width="match_parent"
+        android:layout_height="32dp"
+        android:paddingLeft="5dp" >
+
+        <TextView
+            android:id="@+id/lable_item_check_time"
+            android:layout_width="80dp"
+            android:layout_height="match_parent"
+            android:layout_alignParentLeft="true"
+            android:layout_marginRight="5dp"
+            android:gravity="center_vertical"
+            android:text="排查时间"
+            android:textColor="@color/common_content_gray"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/tv_item_check_time"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_toRightOf="@+id/lable_item_check_time"
+            android:gravity="center_vertical"
+            android:paddingLeft="10dp"
+            android:textColor="@color/common_content_light_blue"
+            android:textSize="14sp" />
+    </RelativeLayout>
+</LinearLayout>

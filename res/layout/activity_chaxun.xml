@@ -1,0 +1,130 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/app_backgroud_color" >
+
+    <RelativeLayout
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/height_top_bar"
+        android:layout_alignParentTop="true"
+        android:background="@color/common_top_bar_blue" >
+
+        <include layout="@layout/commom_back_btn" />
+
+        <TextView
+            android:id="@+id/tv_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_centerVertical="true"
+            android:text="查询"
+            android:textColor="#ffffff"
+            android:textSize="@dimen/title_textsize" />
+
+        <TextView
+            android:id="@+id/tv_query_id"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentRight="true"
+            android:gravity="center_vertical"
+            android:padding="10dp"
+            android:text="确认"
+            android:textColor="#ffffff" />
+          <TextView
+            android:id="@+id/tv_syncdata_id"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentLeft="true"
+            android:gravity="center_vertical"
+            android:padding="10dp"
+            android:layout_marginLeft="35dp"
+            android:text="数据同步"
+            android:textColor="#ffffff" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/title"
+        android:layout_marginTop="15dp"
+         android:layout_margin="10dp"
+        android:orientation="vertical" >
+
+      
+
+        <LinearLayout
+            android:id="@+id/ll_devicedata_id"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/item_listview_selector"
+            android:orientation="horizontal" >
+
+            <RelativeLayout
+                android:id="@+id/rl_query_type"
+                android:layout_width="0dp"
+                android:layout_height="@dimen/app_inputbox_height"
+                android:layout_weight="0.4"
+                android:background="@drawable/abc_popup_background_mtrl_mult" 
+                android:clickable="true">
+
+                <ImageView
+                    android:id="@+id/iv_down_arrow"
+                    android:layout_width="28dp"
+                    android:layout_height="match_parent"
+                    android:layout_alignParentRight="true"
+                    android:src="@drawable/down" />
+
+                <TextView
+                    android:id="@+id/tv_devicedata_id"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/app_inputbox_height"
+                    android:layout_toLeftOf="@+id/iv_down_arrow"
+                    android:gravity="center_vertical"
+                    android:hint="选择数据采集类型"
+                    android:paddingLeft="10dp"
+                    android:singleLine="true"
+                    android:text="户号"
+                    android:textColor="@color/common_content_black"
+                    android:textColorHint="#dddddd"
+                    android:textSize="@dimen/app_content_large_textsize" />
+            </RelativeLayout>
+
+            <EditText
+                android:id="@+id/et_dev_num"
+                android:layout_width="0dp"
+                android:layout_height="@dimen/app_inputbox_height"
+                android:layout_toLeftOf="@+id/iv_scan_id"
+                android:layout_weight="0.6"
+                android:background="@drawable/edit_text_bg"
+                android:gravity="center_vertical"
+                android:hint=""
+                android:paddingLeft="10dp"
+                android:singleLine="true"
+                android:textColorHint="#CCCCCC"
+                android:textSize="@dimen/app_content_large_textsize" />
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0.1dp"
+            android:background="@color/common_content_light_gray" />
+        <TextView 
+            android:id="@+id/tv_address_id"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+           
+            android:hint="详细信息"
+            android:textColor="@color/common_content_black"
+            android:textSize="16sp"
+            android:layout_marginTop="10dp"/>
+        <ListView 
+            android:id="@+id/lv_record_list"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:dividerHeight="5dp"></ListView>
+    </LinearLayout>
+
+</RelativeLayout>
